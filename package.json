@@ -1,0 +1,32 @@
+{
+  "name": "dirio",
+  "version": "0.0.1",
+  "description": "Transforms directory structure to json and json to directory structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "pretest": "node scripts/pretest"
+  },
+  "keywords": [
+    "fs",
+    "directory",
+    "json"
+  ],
+  "author": {
+    "name": "Ondrej Kramolis",
+    "email": "o.kramolis@seznam.cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/okramolis/dirio.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "chai": "~1.10.0",
+    "fs-extra": "~0.16.3"
+  },
+  "dependencies": {
+    "async": "~0.9.0"
+  }
+}
