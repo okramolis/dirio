@@ -13,6 +13,10 @@ Go to the root directory of the `dirio` module, make sure dependencies are insta
     $ npm install
     $ npm test
 
+Constraints
+-----------
+All files to be read are interpreted as `UTF-8` encoded text files and whole content of the file is loaded to memory.
+
 Public interface
 ----------------
 
